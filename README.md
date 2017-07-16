@@ -1,7 +1,7 @@
 # dyndns-updater
 Simple Python DynDNS Updater with VPN check and log
 
-dyndns-updater checks the WAN IP against the IP of a DNS Name. If the two are different, it will connect to DynDNS and update the DNS IP with the WAN IP. If a VPN is currently connected, it will not update the DNS IP. Additionally, it will log the current status and IP to a log file. This script is useful if you regularly connect to a VPN and don't want your DNS IP to update when connected.
+dyndns-updater checks the WAN IP against the IP of a DNS Name. If the two are different, it will connect to DynDNS and update the DNS IP with the WAN IP. If a VPN is currently connected, it will not update the DNS IP. Additionally, it will log the current status and IP to a log file. This script is useful if you regularly connect to a VPN and don't want your DNS IP to update when connected. Works with Python 2.7.
 
 ## **Instructions**
 
