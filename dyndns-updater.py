@@ -142,10 +142,6 @@ def write_log(vpn, status):
 
 if __name__ == '__main__':
 
-#    write_log("Disconnected", "Periodic updater test")
-#    print os.getcwd()
-#    sys.exit()
-
     # Check if connected to VPN
     if check_connected(VPN_INTERFACE):
         print "VPN Connected"
